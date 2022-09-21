@@ -1,0 +1,131 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: contain;
+}
+
+.button {
+  border-radius: 30px;
+  border-color: #F7EC09;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: DynaPuff;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #F7EC09;
+}
+
+.button1:hover {
+  background-color: #FF8E00;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 50px;
+  background-color: #FF1E00;
+  align-items: flex-end;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-indent: 30%;
+}
+
+a:hover {
+  color: #F7EC09;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(d3.jpg);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 450px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: url(store.jpg);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  padding-left: 15px;
+}
+
+#rcorners4 {
+  border-radius: 25px;
+  background: url(zomato-logo.png);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.column1 {
+  float: right;
+  align-items: flex-start;
+  width: 29.5%;
+  padding: 25px;
+}
+
+.column2 {
+  float: right;
+  align-items: center;
+  width: 27%;
+  padding: 150px;
+}
+
+.column3 {
+  float: right;
+  align-items: flex-end;
+  width: 29.5%;
+  padding: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header1 {
+  background-color: #FF1E00;
+  font-family: DynaPuff;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  height: 50px;
+}
+
+.header2 {
+  background-color: #FF1E00;
+  font-family: DynaPuff;
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  padding: 10px;
+  height: 15px;
+}
+
+.content {
+  background-color: #FF1E00;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #FF1E00;
+  text-align: center;
+  height: 100px;
+}
